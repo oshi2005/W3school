@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container ul
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background: #282A35;
+    height: 60px;
+    padding: 10 30px;
+    align-items: center;
+    list-style-type: none;
+    justify-content: flex-start;
+}
+.container ul a{
+    color: #fff;
+    padding: 10 70px;
+    margin: 10px;
+    list-style-type: none;
+    margin-right: 30px;
+    justify-content: center;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.container ul icon{
+    color: #fff;
+}
+.container ul icon-home{
+    color: #fff;
+}
+.as fa-search{
+    color: #fff  
+}
+
+#left-menu{
+    float: flex;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.col-1{
+    margin: 0;
+    padding: 10px;
+    height: auto;
+    width: 250px;
+    background: #e7e9eb;
+}
+.col-1 li{
+    list-style-type: none;
+    
+}
+.col-1 li a{
+    color: #000000;
+    font-size: 30px;
+    margin: 0 0px;
+    
+    
+}
+
+#left-menu{
+    display: flex;
+  
+    
+}
+.col-1
+{ 
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.col-1 li a {
+    text-decoration: none;
+    overflow: scro;
+}
+
+.content{
+    display: flex;
+    
+}
+.content-list{
+    display: inline-block;
+}
+.row-1{
+    
+    width: 1000px;
+}
+.row-1 h1{
+    text-align: left;
+    padding: 10px;
+
+    font-size: 30px;
+
+}
+.button_1{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.w3-left{
+display: inline-block;
+background-color: #04AA6D;
+padding: 10px 20px;
+border-radius: 20px;
+color: #fff;
+margin-left: 10px;
+font-size: 17px;
+text-decoration: none;
+
+}
+.w3-right{
+    display: inline-block;
+    background-color: #04AA6D;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    margin-left: 10px;
+    font-size: 17px;
+    text-decoration: none;
+    
+}
+
+.content_list{
+    padding: 10px ;
+    margin: 15px 20px;
+    width: 967px;
+    height: 200px;
+    background-color: #D9EEE1;
+    letter-spacing: 1px;
+   
+
+}
+.icon_2{
+    font-size: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+.content_2 h1{
+    font-size: 25px;
+    margin-left: -10px;
+    letter-spacing: 1px;
+}
+.content_2 .box_1{
+    width: 940px;
+    height: 630px;
+    background-color: #D9EEE1;
+}
+.content_2 .box_2{
+    width: 900px;
+    height: 565px;
+    background-color: #15202B;
+    margin: 10px 20px ;
+    border-radius: 10px;
+}
+.icon_contennt2{
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+.content_3 p{
+    font-size: 16px;
+    padding: 10px 0;
+}
+.icon_content3{
+    color: #000000;
+    background: #969595;
+    border: none;
+    font-size: 15px;
+    padding: 0 30px;
+    border-radius: 10px;
+}
+.icon_1_content3{
+    font-size: 20px;
+    background-color: #0D8BF2;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 15px ;
+    cursor: pointer;
+    color: #fff;
+
+} 
+.w3-third{
+    display: inline-flex;
+}
+.col_3_box_3{
+    padding: 10px;
+}
+.col_3_box_3 .icon3_content3{
+    
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    background: #969595;
+    border: none;
+    margin: 3px 3px 3px 3px ;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.col_3_box_3 .icon3_content3:hover{
+    color: #fff;
+    background: #0D8BF2;
+    transition: 0.5s;
+}
+
+.ban_1{
+    width: 920px;
+    height: 405px;
+    background: #282A35;
+    padding: 0 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.ban_1 h1{
+    font-size: 50px ;
+    color: #F8BBC2;
+    padding: 40px 50px;
+    line-height: 2.0;
+    }
+.button_ban1{
+    position: relative;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 30px;
+    width: 205px;
+    height: 61px;
+    color: #fff;
+    font-size: 18px;
+    margin: -30px 50px;
+    top: -30px;
+    
+
+}
+.footer{
+    display: flex;
+    margin: 30px 100px;
+    text-align: center;
+    justify-content: space-around;
+    padding: 20px 0;
+    
+}
+.top10 h5{
+    font-size: 18px;
+
+
+}
+.top10 h5 a{
+    font-size: 12px;
+}
+.button_footer{
+    background-color: #282A35;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 10px;
+    padding: 5px 3px;
+}
